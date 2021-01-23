@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <!-- Fonts Kite -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/def49b6188.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+    <!-- CSS Kite -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>SILOKERNF</title>
+    <style>
+        .form{
+            margin: 100px auto;
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        input[type=text], input[type=password] {
+            margin: 5px auto;
+            width: 100%;
+            padding: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1 class="project text-center">Sistem Lowongan Kerja NF</h1>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="container">  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link navt " href="index.html">Home </a>
+            <a class="nav-item nav-link navt " href="lwgbaru.html">Lowongan Baru</a>
+            <a class="nav-item nav-link navt " href="isilkr.html">Isi Loker</a>
+            <a class="nav-item nav-link navt " href="daftarmitra.html">Daftar Mitra</a>
+            <a class=" nav-item nav-link navt " href="#">Berita</a>
+          </div>
+        </div>
+        <form class="form-inline ml-auto">
+          <input class="form-control mr-sm-2 navt" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0 fas fa-search log" type="submit"></button>
+          <i class=""></i>
+          <a class="nav-item nav-link fas fa-user log" href="Login.html"></a>
+        </form> 
+      </div>
+    </nav>
+    <div class="form">
+    <form class="form-horizontal">
+    <fieldset>
+    
+    <!-- Form Name -->
+    <legend style="text-align: center;">Login</legend>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Username">Username</label>  
+      <div class="col-md-12">
+      <input id="Username" name="Username" type="text" placeholder="" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Password input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="passwordinput">Password </label>
+      <div class="col-md-12">
+        <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Button -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Signin"></label>
+      <div class="col-md-4">
+        <button type="button" class="btn btn-primary" onclick="login()">Login</button>
+      </div>
+    </div>
+    
+    </fieldset>
+    </form>
+    </div>
+    <!-- Footer -->
+    <hr>
+    <div class="container">
+     <span class="ft mb-0">Develop By Mahasiswa STT-NF @2020</span>
+    </div> 
+  </body>
+</html>    

@@ -1,0 +1,166 @@
+/*Navbar*/*/
+.project{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 180%;
+
+}
+
+.navt{
+	font-family: Montserrat;
+	font-size: 90%;
+
+}
+
+.log{
+	color: black;
+	font-size: 120%;
+
+}
+
+/*Jumbotron*/
+.ttl{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.isian{
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 100%;
+
+}
+
+.isian a{
+	text-decoration: none;
+}
+
+.list-link-berita{
+	margin-left: 2%;
+}
+
+.bdr{
+	border: 1px solid black;
+	padding: 2%;
+}
+
+.thumbnail-berita{
+	width: 40%;
+}
+
+
+
+.berita h5{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.berita p{
+	margin-top: 12%;
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 85%;
+}
+.elip{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 20ch;
+}
+
+.hvr:hover{
+	color: blue;
+
+}
+
+/*footer*/
+.ft{
+	padding: 1% 2%; 
+	font-family: Montserrat;
+	font-weight: 300;
+	font-size: 85%;
+
+
+}
+
+.dsp
+
+.pd{
+	padding-right: 1.25rem;
+}
+
+/*page detail kerja*/
+.title h1 {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.title p{
+	font-family: Montserrat;
+	font-size: 14px;
+}
+
+.pesyaratan h3{
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+
+.pesyaratan li{
+	border: 0px;
+	font-size: 14px;
+	font-family: Montserrat;
+	margin: 5px;
+	margin-left: 50px;
+	padding: 0px;
+}
+
+.pesyaratan h3 i{
+	padding-right: 9px;
+	font-size: 24px;
+	color: grey;
+}
+
+.pesyaratan li i{
+	padding-right: 9px;
+	font-size: 5px;
+	color: black;
+}
+
+.dll h3{
+	font-size: 24px;
+	font-family: Montserrat;
+	font-weight: 500;
+}
+
+.dll address{
+	font-family: Montserrat;
+	font-size: 14px;
+	margin-bottom: 48px;
+}
+
+.icon {
+	font-size: 16px;
+	color: black;
+}
+
+/*desktop responsive*/
+@media (min-width: 992px) {
+
+/*DESKTOP VERSION*/
+/*@media (min-width: 768px) {
+	.list-link-berita{
+		margin-left: 0px;
+	}
+}
+@media (max-width: 576px) {
+	.list-link-berita{
+		margin-left: 0px;
+		margin-top: 2%;
+	}
+
+	
+}

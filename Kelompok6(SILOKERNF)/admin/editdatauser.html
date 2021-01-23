@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <!-- Fonts Kite -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/def49b6188.js" crossorigin="anonymous"></script>
+
+
+    <!-- CSS Kite -->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <title>SILOKERNF</title>
+  </head>
+  <body>
+    <h1 class="project text-center">Sistem Lowongan Kerja NF</h1>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <div class="container">  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link navt " href="dashboard.html">Home </a>
+            <a class="nav-item nav-link navt " href="datauser.html">User </a>
+            <a class="nav-item nav-link navt " href="lowbar.html">Lowongan Baru</a>
+            <a class="nav-item nav-link navt " href="kelolamitra.html">Daftar Mitra</a>
+            <a class=" nav-item nav-link navt " href="berita.html">Berita</a>
+          </div>
+        </div>
+        <form class="form-inline ml-auto">
+          <input class="form-control mr-sm-2 navt" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0 fas fa-search log" type="submit"></button>
+          <a class="nav-item nav-link fas fa-sign-out-alt" href="../Login.html"></a>
+        </form> 
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+     <!-- Jumbotron -->
+     <div class="jumbotron jumbotron-fluid" style="background-color: white;">
+        <div class="container">
+          <div class="bdr">
+            <nav class="navbar navbar-expand-lg navbar-light" aria-label="breadcrumb" style="padding: 0px;">
+              <div class="container" style="padding: 0px;">  
+                <form class="form-inline ml-auto">
+                  <ol class="breadcrumb " style="background-color: white; padding: 0px;">
+                    <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Admin</a></li>
+                    <li class="breadcrumb-item"><a href="datauser.html">Data User</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                  </ol>
+                </form> 
+              </div>
+            </nav>
+            <form>
+              <fieldset style="border: 1px solid black; padding: 2%;">
+                <legend style="width: 22%; max-width: 100%;">Edit Data Pengguna</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group row">
+                        <label for="number" class="col-3 col-form-label">No</label>
+                        <div class="col">
+                          <input type="text" class="form-control" id="number" placeholder="No">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group row">
+                        <label for="namauser" class="col-3 col-form-label">Nama Pengguna</label>
+                        <div class="col">
+                          <input type="text" class="form-control" id="namauser" placeholder="Masukan Nama">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group row">
+                        <label for="username" class="col-3 col-form-label">Username</label>
+                        <div class="col">
+                          <input type="text" class="form-control" id="username" placeholder="Masukan Username">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group row">
+                        <label for="Password" class="col-3 col-form-label">Password</label>
+                        <div class="col">
+                          <input type="text" class="form-control" id="Password" placeholder="Masukan Password">
+                        </div>
+                      </div>
+                    </div>
+                </div>   
+
+                <div class="form-group row">
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary">Save</button>                  
+                    <button type="submit" class="btn btn-danger">Cancel</button>
+                  </div>
+                </div>
+
+              </fieldset> 
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Jumbotron -->
+
+    <!-- Footer -->
+    <hr>
+    <div class="container">
+      <span class="ft mb-0">Develop By Mahasiswa STT-NF @2020</span>
+    </div> 
+    <!-- akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
